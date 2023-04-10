@@ -13,7 +13,7 @@ public class FirefoxTest{
 	@Test
 	public void bookATicket() {
 		
-
+		System.out.println("Running Test Firefox");
 		String pathToFirefoxDriver = "C:\\Users\\krakh\\Desktop\\drivers\\geckodriver.exe";
 		String geckoDriver = "webdriver.gecko.driver";
         System.setProperty(geckoDriver, pathToFirefoxDriver);
