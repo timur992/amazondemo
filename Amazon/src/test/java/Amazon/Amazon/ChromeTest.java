@@ -12,7 +12,7 @@ public class ChromeTest{
 	@Test
 	public void bookATicket() {
 		
-
+		System.out.println("Running Test bookATicket");
 		String pathToDriver = "C:\\Users\\krakh\\Desktop\\drivers\\chromedriver.exe";
 		String chromeDriver = "webdriver.chrome.driver";
         System.setProperty(chromeDriver, pathToDriver);
@@ -26,7 +26,7 @@ public class ChromeTest{
 		
 		WebElement departureDropDown = driver.findElement(By.cssSelector("#ctl00_mainContent_ddl_originStation1_CTXTaction"));
 		departureDropDown.click();
-		wait(2);
+		wait(4);
 		WebElement bengaluruCity = driver.findElement(By.xpath("//a[contains(text(),'Bengaluru (BLR)')]"));
 		bengaluruCity.click();
 		wait(2);
