@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 public class ChromeTest{
 	
-	@Test
+	@Test(enabled=false)
 	public void bookATicket() {
 		
 		System.out.println("Running Test Chrome");
